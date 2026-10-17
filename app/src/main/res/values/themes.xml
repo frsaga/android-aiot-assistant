@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CourseProjectV3" parent="android:style/Theme.Material.Light.NoActionBar">
+        <!-- 使用 Android 标准字体族名，避免 LayoutLib 预览器读取不存在的 sans 字体文件。 -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+</resources>
